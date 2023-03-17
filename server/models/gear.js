@@ -9,11 +9,11 @@ const gearSchema=mongoose.Schema({
     imageFile:String,
     createdAt:{
         type:Date,
-        default:0.
+        default: new Date(),
     },
     likeCount:{
         type:Number,
-        default:0,
+        default:[],
     },
 });
 
